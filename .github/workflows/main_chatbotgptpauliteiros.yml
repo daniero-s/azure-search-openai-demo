@@ -53,4 +53,4 @@ jobs:
           app-name: 'ChatBotGPTPauliteiros'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_AA3C02B08E764458BA249E3CB765E38A }}
-          package: .
+          package: app/frontend
